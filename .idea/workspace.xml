@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df4e46a1-9910-40e9-9a4e-6ca4cd98b3e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exploratory Data Analysis Projects/1 - Human Temp/.ipynb_checkpoints/sliderule_dsi_inferential_statistics_exercise_1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Projects/1 - Human Temp/.ipynb_checkpoints/sliderule_dsi_inferential_statistics_exercise_1-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exploratory Data Analysis Projects/1 - Human Temp/sliderule_dsi_inferential_statistics_exercise_1.ipynb" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Projects/1 - Human Temp/sliderule_dsi_inferential_statistics_exercise_1.ipynb" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Projects/1 - Linear Regression Using Boston Housing Data Set/linear_regression/Mini_Project_Linear_Regression.ipynb" afterPath="$PROJECT_DIR$/Machine Learning Projects/1 - Linear Regression Using Boston Housing Data Set/linear_regression/Mini_Project_Linear_Regression.ipynb" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Projects/2 - Heights and Weights Using Logistic Regression/logistic_regression/Mini_Project_Logistic_Regression.ipynb" afterPath="$PROJECT_DIR$/Machine Learning Projects/2 - Heights and Weights Using Logistic Regression/logistic_regression/Mini_Project_Logistic_Regression.ipynb" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +35,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Exploratory Data Analysis Projects/1 - Human Temp/sliderule_dsi_inferential_statistics_exercise_1.ipynb" />
+        <option value="$PROJECT_DIR$/Machine Learning Projects/1 - Linear Regression Using Boston Housing Data Set/linear_regression/Mini_Project_Linear_Regression.ipynb" />
+        <option value="$PROJECT_DIR$/Machine Learning Projects/1 - Linear Regression Using Boston Housing Data Set/Mini_Project_Linear_Regression2.ipynb" />
       </list>
     </option>
   </component>
@@ -37,6 +45,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -53,6 +64,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,32 +77,31 @@
             <path>
               <item name="Springboard-Projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="Springboard-Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="Exploratory Data Analysis Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine Learning Projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Springboard-Projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="Springboard-Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="Exploratory Data Analysis Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="1 - Human Temp" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine Learning Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - Linear Regression Using Boston Housing Data Set" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Springboard-Projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="Springboard-Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="Exploratory Data Analysis Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="2 - Racial Discrmination" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine Learning Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - Linear Regression Using Boston Housing Data Set" type="462c0819:PsiDirectoryNode" />
+              <item name="linear_regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,11 +157,21 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+    <configuration name="Springboard-Projects" type="Python.Ipnb" factoryName="Jupyter Notebook">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\elliot.ting\AppData\Local\Programs\Python\Python36-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Springboard-Projects" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1http://localhost:8888/?token=3b80dce5b7cde19e8f109fe6656c3918ef31eb66490eabb6" />
+      <option name="ipnbPort" value="8888" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -184,6 +207,12 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -216,7 +245,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -225,11 +254,11 @@
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -267,6 +296,27 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning Projects/1 - Linear Regression Using Boston Housing Data Set/linear_regression/Mini_Project_Linear_Regression - Copy.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning Projects/1 - Linear Regression Using Boston Housing Data Set/Mini_Project_Linear_Regression2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning Projects/1 - Linear Regression Using Boston Housing Data Set/linear_regression/Mini_Project_Linear_Regression.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
